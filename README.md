@@ -27,6 +27,7 @@ A self-hosted AI chatbot with RAG (Retrieval-Augmented Generation), streaming re
 ---
 
 ## 🏗️ Architecture
+```text
 ┌─────────────────────────────────────────────────────────┐
 │ Frontend │
 │ Next.js 14 (App Router) + Zustand │
@@ -46,6 +47,7 @@ A self-hosted AI chatbot with RAG (Retrieval-Augmented Generation), streaming re
 ┌───────────────▼──────────────┐
 │ PostgreSQL 15 + pgvector │
 └──────────────────────────────┘
+```
 
 
 **RAG Flow:**
@@ -134,6 +136,7 @@ npm run test
 ---
 
 ## 🗂️ Project Structure
+```text
 personal-ai-chatbot/
 ├── backend/ # NestJS — Clean Architecture
 │ └── src/
@@ -149,6 +152,7 @@ personal-ai-chatbot/
 │   ├── lib/ # API client, types
 │   └── store/ # Zustand stores
 └── docker-compose.yml
+```
 
 
 ---
