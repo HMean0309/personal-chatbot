@@ -1,0 +1,12 @@
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI Coding Assistants
+.qodo/
+
+# OS specific
+.DS_Store
+Thumbs.db
